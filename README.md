@@ -7,7 +7,7 @@ Disciplina: Programação de Jogos - Turma: UN<br>
 Professor: João Vitor de Sa Hauck<br></h2>
 
 
-<h1>Bomberman</h1>
+<h1>BOMBERMAN</h1>
  
  <h2>Repositorio do sistema do jogo Bomberman.</h2>
 <center>
