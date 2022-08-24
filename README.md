@@ -12,6 +12,7 @@ Professor: João Vitor de Sa Hauck<br></h2>
  <h2>Repositorio do sistema do jogo Bomberman.</h2>
 <center>
  Alunos           - RA's<br>
+ 
  André Gustavo    - 21900345<br>
  Davi Galati      - 21905069<br>
  Eric Vinício     - 21902089<br>
