@@ -233,7 +233,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 532918642}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0625, y: 0.4375, z: 0}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -348,7 +348,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.49
+  m_Radius: 0.5
 --- !u!50 &634177119
 Rigidbody2D:
   serializedVersion: 4
@@ -425,7 +425,13 @@ MonoBehaviour:
   inputKey: 32
   bombPrefab: {fileID: 4616862234930053802, guid: 77fc5291a4a1ac0449bc4395d9bcd9dd, type: 3}
   bombFuseTime: 3
-  bombAmount: 3
+  bombAmount: 5
+  explosionPrefab: {fileID: -6402388657892486070, guid: e20166cc7a8b10e499dea936507faa9c, type: 3}
+  explosionLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  explosionDuration: 1
+  explosionRadius: 3
 --- !u!1 &677353268
 GameObject:
   m_ObjectHideFlags: 0
@@ -452,7 +458,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 677353268}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0625, y: 0.4375, z: 0}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -542,7 +548,7 @@ GameObject:
   m_Component:
   - component: {fileID: 739479848}
   - component: {fileID: 739479847}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Starge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -590,7 +596,7 @@ GameObject:
   - component: {fileID: 873367260}
   - component: {fileID: 873367259}
   - component: {fileID: 873367258}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tilemap_Indestructibles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4093,7 +4099,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1023407884}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0625, y: 0.4375, z: 0}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4185,7 +4191,7 @@ GameObject:
   - component: {fileID: 1376937895}
   - component: {fileID: 1376937894}
   - component: {fileID: 1376937893}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tilemap_Destructibles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5560,7 +5566,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1551786745}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0625, y: 0.4375, z: 0}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
