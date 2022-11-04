@@ -26675,6 +26675,12 @@ MonoBehaviour:
   - {fileID: 1580151695}
   - {fileID: 240744881}
   - {fileID: 2084387017}
+  Jogador3: {fileID: 240744881}
+  HudJogador3: {fileID: 1659165234}
+  Hud_Jogador3: {fileID: 507162177}
+  Jogador4: {fileID: 2084387017}
+  HudJogador4: {fileID: 1924831417}
+  Hud_Jogador4: {fileID: 1256797115}
 --- !u!4 &963663206
 Transform:
   m_ObjectHideFlags: 0
