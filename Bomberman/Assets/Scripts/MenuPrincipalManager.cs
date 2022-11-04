@@ -13,6 +13,8 @@ public class MenuPrincipalManager : MonoBehaviour
 {
     
     [SerializeField] private string nomeDoLevelDeJogo;
+    //[SerializeField] private string nomeDoLevelDeJogo2;
+    //[SerializeField] private string nomeDoLevelDeJogo3;
     [SerializeField] private GameObject painelMenuInicial;
     [SerializeField] private GameObject painelOpcoes;
     [SerializeField] private GameObject painelOpcoesJogo;
@@ -33,7 +35,7 @@ public class MenuPrincipalManager : MonoBehaviour
         UserData.QT_play = 2;
                    
         //FindObjectOfType<GameManager>().QTD_play(2);
-        SceneManager.LoadScene(nomeDoLevelDeJogo);
+        SceneManager.LoadScene("BombermanMapCeub2P");
         
     }
     public void Jogar2()
@@ -42,11 +44,15 @@ public class MenuPrincipalManager : MonoBehaviour
         UserData.QT_play = 3;
                    
         //FindObjectOfType<GameManager>().QTD_play(2);
-        SceneManager.LoadScene(nomeDoLevelDeJogo);
+        SceneManager.LoadScene("BombermanMapCeub3P");
     }
     public void Jogar3()
     {
         SceneManager.LoadScene(nomeDoLevelDeJogo);
+    }
+    public void Default()
+    {
+        SceneManager.LoadScene("Bomberman");
     }
     public void AbrirOpcoes()
     {

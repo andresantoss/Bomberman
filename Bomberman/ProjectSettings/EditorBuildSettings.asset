@@ -11,7 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BombermanMapCeub.unity
     guid: c553c58da109cfb4786545eb0aa2a2ab
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/BombermanMapCeub2P.unity
+    guid: 83b3877d001e2ac4ab6e17bc5676090f
+  - enabled: 1
+    path: Assets/Scenes/BombermanMapCeub3P.unity
+    guid: fd4b048bd4cc70d46b6b2c122108d36f
+  - enabled: 1
     path: Assets/Scenes/Bomberman.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
