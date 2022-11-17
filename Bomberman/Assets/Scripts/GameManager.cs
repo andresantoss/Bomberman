@@ -13,10 +13,11 @@ public class GameManager : MonoBehaviour
     [SerializeField] public GameObject HudJogador4;
     [SerializeField] public GameObject Hud_Jogador4;
     //[SerializeField] public string labelQT_play;
-    public void Start(){
+    public void Start()
+    {
         // Aqui você já deve ter a referência do elemento text que exibirá o dado.
         // Exibe o nome do usuário armazenado.
-        
+
         Debug.Log(UserData.QT_play);
         QTD_play(UserData.QT_play);
     }
@@ -30,7 +31,7 @@ public class GameManager : MonoBehaviour
             Jogador4.SetActive(false);
             HudJogador4.SetActive(false);
             Hud_Jogador4.SetActive(false);
-            
+
         }
         if (QT_play == 3)
         {
@@ -45,13 +46,17 @@ public class GameManager : MonoBehaviour
 
         foreach (GameObject player in players)
         {
-            if (player.activeSelf) {
+            if (player.activeSelf)
+            {
                 aliveCount++;
             }
         }
 
-        if (aliveCount <= 1) {
+        if (aliveCount <= 1)
+        {
+
             Invoke(nameof(NewRound), 3f);
+            SceneManager.LoadScene("menu");
         }
     }
 

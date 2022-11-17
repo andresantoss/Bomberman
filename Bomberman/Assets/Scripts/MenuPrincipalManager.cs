@@ -1,9 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-class UserData{
+class UserData
+{
 
     public static int QT_play = 0;
 
@@ -11,7 +10,7 @@ class UserData{
 
 public class MenuPrincipalManager : MonoBehaviour
 {
-    
+
     [SerializeField] private string nomeDoLevelDeJogo;
     //[SerializeField] private string nomeDoLevelDeJogo2;
     //[SerializeField] private string nomeDoLevelDeJogo3;
@@ -22,7 +21,7 @@ public class MenuPrincipalManager : MonoBehaviour
     public void Jogar()
     {
         painelMenuInicial.SetActive(false);
-        painelOpcoesJogo.SetActive(true);               
+        painelOpcoesJogo.SetActive(true);
     }
     public void FecharJogar()
     {
@@ -31,24 +30,19 @@ public class MenuPrincipalManager : MonoBehaviour
     }
     public void Jogar1()
     {
-        Debug.Log("to aq");
         UserData.QT_play = 2;
-                   
-        //FindObjectOfType<GameManager>().QTD_play(2);
         SceneManager.LoadScene("BombermanMapCeub2P");
-        
+
     }
     public void Jogar2()
     {
-       Debug.Log("to aq");
         UserData.QT_play = 3;
-                   
-        //FindObjectOfType<GameManager>().QTD_play(2);
         SceneManager.LoadScene("BombermanMapCeub3P");
     }
     public void Jogar3()
     {
-        SceneManager.LoadScene(nomeDoLevelDeJogo);
+        UserData.QT_play = 4;
+        SceneManager.LoadScene("BombermanMapCeub");
     }
     public void Default()
     {
